@@ -11,7 +11,7 @@ print("File is Closed.", file.closed)
 print("File has opened in ", file.mode,"mode")
 
 #WAP to Access a file after it is closed .
-file=open("file.txt ","w+")
+file=open("file.txt ","w+") 
 print("Name of the File ", file.name)
 print("File is Closed.", file.closed)
 print("File has opened in ", file.mode,"mode")
@@ -21,3 +21,6 @@ print("File is now being closed.", file.close())
 file=open("file.txt ","w")
 file.write("Hey Everyone hope so it is easy for you to understand this program !!")  #fileobj.writes(string)
 file.close()
+print("Data written into file")  # write() returns none
+
+
